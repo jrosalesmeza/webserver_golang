@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"web_server/utils"
+
+	"github.com/jrosalesmeza/webserver_golang/utils"
 )
 
 func HandlerRoot(w http.ResponseWriter, r *http.Request) {

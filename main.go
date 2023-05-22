@@ -4,8 +4,9 @@ package main
 
 import (
 	"fmt"
-	"web_server/handlers"
-	s "web_server/server"
+
+	"github.com/jrosalesmeza/webserver_golang/handlers"
+	s "github.com/jrosalesmeza/webserver_golang/server"
 )
 
 func main() {

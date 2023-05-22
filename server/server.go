@@ -2,7 +2,8 @@ package server
 
 import (
 	"net/http"
-	"web_server/utils"
+
+	"github.com/jrosalesmeza/webserver_golang/utils"
 )
 
 type Server struct {
